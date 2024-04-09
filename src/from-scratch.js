@@ -26,16 +26,23 @@ const newArrayFullOf = (value, numOfValue) => {
 };
 
 // Example usage:
-const arr = newArrayFullOf(1, 5);
+const newArrayFullOf1 = (value, length) => {
+  return Array(length).fill(value);
+};
+
+const arr1 = newArrayFullOf1(1, 5);
 console.log(arr); // Output: [1, 1, 1, 1, 1]
 
-const arr2 = newArrayFullOf(true, 2);
+const arr2 = newArrayFullOf1(true, 2);
 console.log(arr2); // Output: [true, true]
 
 const insertIntoMiddle = (arr, value) => {
   const middleIndex = Math.floor(arr.length / 2); // Find the middle index
   arr.splice(middleIndex, 0, value); // Insert the value at the middle index
 };
+
+insertIntoMiddle(arr, 3);
+console.log(arr); // Output: [1, 1, 3, 1, 1]
 
 // Example usage:
 let arr = [1, 2, 4, 5];

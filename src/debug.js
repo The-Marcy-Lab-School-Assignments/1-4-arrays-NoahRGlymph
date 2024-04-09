@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-const clearAll = (arr) => {
+const clearArr = (arr) => {
   arr.length = 0;
 };
 

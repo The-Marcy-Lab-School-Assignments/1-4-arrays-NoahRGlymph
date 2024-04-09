@@ -10,7 +10,7 @@
     "FrScTe8": "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates",
     "MoTe1": "Modify Tests uppercaseAll - No matter how many words passed in, they are uppercased",
     "MoTe2": "Modify Tests destructureCoordinates - Destructures the coordinates array into x and y variables",
-    "DeTe1": "Debug Tests clearAll - removes all elements from an array as a mutation",
+    "DeTe1": "Debug Tests clearArr - removes all elements from an array as a mutation",
     "DeTe2": "Debug Tests getFirstItem - returns the first item in an array WITHOUT mutating original"
   },
   "testNameToIdHash": {
@@ -25,7 +25,8 @@
     "Modify Tests uppercaseAll - No matter how many words passed in, they are uppercased": "MoTe1",
     "Modify Tests destructureCoordinates - Destructures the coordinates array into x and y variables": "MoTe2",
     "Debug Tests clearAll - removes all elements from an array as a mutation": "DeTe1",
-    "Debug Tests getFirstItem - returns the first item in an array WITHOUT mutating original": "DeTe2"
+    "Debug Tests getFirstItem - returns the first item in an array WITHOUT mutating original": "DeTe2",
+    "Debug Tests clearArr - removes all elements from an array as a mutation": "DeTe1"
   },
   "testScores": {
     "From Scratch Tests": {
@@ -39,18 +40,18 @@
       "FrScTe8": 0
     },
     "Modify Tests": {
-      "MoTe1": 0,
+      "MoTe1": 1,
       "MoTe2": 0
     },
     "Debug Tests": {
-      "DeTe1": 0,
-      "DeTe2": 0
+      "DeTe1": 1,
+      "DeTe2": 1
     }
   },
   "humanReadable": {
     "From Scratch Tests": "0/8",
-    "finalTestScore": "FINAL SCORE: 0/12",
-    "Modify Tests": "0/2",
-    "Debug Tests": "0/2"
+    "finalTestScore": "FINAL SCORE: 3/12",
+    "Modify Tests": "1/2",
+    "Debug Tests": "2/2"
   }
 }

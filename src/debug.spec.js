@@ -7,7 +7,7 @@ const scoresDir = path.join(__dirname, '..', 'scores');
 const scoreCounter = new ScoreCounter(testSuiteName, scoresDir);
 
 describe(testSuiteName, () => {
-  it('clearAll - removes all elements from an array as a mutation', () => {
+  it('clearArr - removes all elements from an array as a mutation', () => {
     const arr1 = [1, 2, 3, 4, 5];
     clearArr(arr1);
     expect(arr1).toEqual([]);
